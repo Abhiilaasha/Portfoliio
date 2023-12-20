@@ -30,8 +30,9 @@
 
 <ul>
   <li>React.js</li>
-  <p> forms the core of the application, facilitating the creation and management of reusable UI components and the application's overall structure.</p> 
+  <p> Forms the core of the application, facilitating the creation and management of reusable UI components and the application's overall structure.</p> 
   <li>styled-components</li>
+  <p> Assists in styling these components by providing a way to encapsulate styles and make them more maintainable, readable, and reusable.</p>
   <li>react-router-dom</li>
 </ul>
 
