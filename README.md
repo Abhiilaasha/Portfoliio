@@ -34,6 +34,7 @@
   <li>styled-components</li>
   <p> Assists in styling these components by providing a way to encapsulate styles and make them more maintainable, readable, and reusable.</p>
   <li>react-router-dom</li>
+  <p> Helps in managing the application's routes, enabling navigation between different views or pages within the single-page application, enhancing user experience and interaction.</p>
 </ul>
 
 
