@@ -1,11 +1,11 @@
-import React from 'react'
-import styled from 'styled-components';
-import { Bio } from '../../data/constants.js';
-import Typewriter from 'typewriter-effect';
+import React from "react";
+import styled from "styled-components";
+import { Bio } from "../../data/constants.js";
+import Typewriter from "typewriter-effect";
 import profile from "../../images/profile.jpg";
 
 const HeroContainer = styled.div`
-background: ${({ theme }) => theme.card_light};
+  background: ${({ theme }) => theme.card_light};
   display: flex;
   justify-content: center;
   position: relative;
@@ -195,37 +195,42 @@ const Img = styled.img`
     max-height: 180px;
   }
 `;
-const Hero =()  => {
-    return (
-        <div id='about'>
-            <HeroContainer> 
-                <HeroBg> </HeroBg>
-                <HeroInnerContainer>
-                <HeroLeftContainer>
-                <Title> Hi, I'm <br/> {Bio.name} </Title>
-                <TextLoop>
-                            I am a
-                            <Span>
-                                <Typewriter
-                                    options={{
-                                        strings: Bio.roles,
-                                        autoStart: true,
-                                        loop: true,
-                                    }}
-                                />
-                            </Span>
-                        </TextLoop>
-                <SubTitle> {Bio.description} </SubTitle>
-                <ResumeButton href = {Bio.description} target="display"> Resume </ResumeButton>
-                </HeroLeftContainer>
-                <HeroRightContainer> 
-                    <Img src = {profile} alt ="Hero"/>
-                </HeroRightContainer>
-                </HeroInnerContainer>
-            </HeroContainer>
-        </div>
-    )
-
+const Hero = () => {
+  return (
+    <div id="about">
+      <HeroContainer>
+        <HeroBg> </HeroBg>
+        <HeroInnerContainer>
+          <HeroLeftContainer>
+            <Title>
+              {" "}
+              Hi, I'm <br /> {Bio.name}{" "}
+            </Title>
+            <TextLoop>
+              I am a
+              <Span>
+                <Typewriter
+                  options={{
+                    strings: Bio.roles,
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </Span>
+            </TextLoop>
+            <SubTitle> {Bio.description} </SubTitle>
+            <ResumeButton href={Bio.resume} target="display">
+              {" "}
+              Resume{" "}
+            </ResumeButton>
+          </HeroLeftContainer>
+          <HeroRightContainer>
+            <Img src={profile} alt="Hero" />
+          </HeroRightContainer>
+        </HeroInnerContainer>
+      </HeroContainer>
+    </div>
+  );
 };
 
 export default Hero;
