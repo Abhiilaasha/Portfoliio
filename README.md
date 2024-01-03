@@ -29,11 +29,11 @@
 <h2>Technologies Used</h2>
 
 <ul>
-  <li> # React.js : </li>
+  <li> React.js : </li>
   <p> Forms the core of the application, facilitating the creation and management of reusable UI components and the application's overall structure.</p> 
-  <li> # styled-components : </li>
+  <li> styled-components : </li>
   <p> Assists in styling these components by providing a way to encapsulate styles and make them more maintainable, readable, and reusable.</p>
-  <li> # react-router-dom : </li>
+  <li> react-router-dom : </li>
   <p> Helps in managing the application's routes, enabling navigation between different views or pages within the single-page application, enhancing user experience and interaction.</p>
 </ul>
 
