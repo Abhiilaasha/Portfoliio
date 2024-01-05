@@ -17,7 +17,7 @@
 
 
 
-<h2> Description : </h2>
+<h2> Description  </h2>
 
 <p>This repository contains the code for my portfolio website, designed to present my professional profile and projects. It's a single-page application built with React.js and styled-components, providing a responsive and elegant layout.</p>
 
@@ -26,7 +26,7 @@
 
 
 
-<h2>Technologies Used :</h2>
+<h2>Technologies Used </h2>
 
 <ul>
   <li> React.js : </li>
@@ -39,7 +39,7 @@
 
 
 
-<h2> License : </h2>
+<h2> License </h2>
 
 <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
