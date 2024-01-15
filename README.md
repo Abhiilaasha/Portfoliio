@@ -18,7 +18,7 @@
 
 <h2> Description  </h2>
 
-<p>This repository contains the code for my portfolio website, designed to present my professional profile and projects. It's a single-page application built with React.js and styled-components, providing a responsive and elegants layout.</p>
+<p>This repository contains the code for my portfolio website, designed to present my professional profile and projects. It's a single-page application built with React.js and styled-components, providing a responsive and elegant  layout.</p>
 
 
 
