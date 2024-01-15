@@ -1,7 +1,6 @@
 # My Portfolio -> [Link](https://abhiilaasha.netlify.app/)
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +8,7 @@
 </head>
 <body>
 
-<h1>Portfolio Website</h1>
+<h1> Portfolio Website </h1>
 
 <p>This is a personal portfolio website showcasing my skills, experience, education, projects, and contact information. It's built using React.js and styled-components for styling, providing an interactive and visually appealing interface.</p>
 
@@ -19,7 +18,7 @@
 
 <h2> Description  </h2>
 
-<p>This repository contains the code for my portfolio website, designed to present my professional profile and projects. It's a single-page application built with React.js and styled-components, providing a responsive and elegant layout.</p>
+<p>This repository contains the code for my portfolio website, designed to present my professional profile and projects. It's a single-page application built with React.js and styled-components, providing a responsive and elegants layout.</p>
 
 
 
